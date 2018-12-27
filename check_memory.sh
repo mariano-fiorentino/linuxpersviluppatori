@@ -9,6 +9,8 @@ case $MEM in
   echo "Ancora tutto bene";;
 8[0-9])
   echo "Sei al limite";;
+9[0-5])
+  echo "Sei prorio al limite";;
 *)
   echo "Memoria quasi finita";;
 esac
